@@ -1,0 +1,17 @@
+// 極力詳細度レベルを1に
+@charset "UTF-8";
+
+// settings
+@import "./settings/base";
+@import "./settings/breakpoint";
+@import "./settings/cubic";
+@import "./settings/color";
+@import "./settings/flex";
+@import "./settings/layout";
+
+// modules
+@import "./modules/header";
+@import "./modules/footer";
+@import "./modules/common"; 
+
+// pages s

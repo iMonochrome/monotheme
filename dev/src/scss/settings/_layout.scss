@@ -1,0 +1,56 @@
+/*
+    ********************************************************************************
+    ********************************************************************************
+               WARNING : This is a common class, please do not modify it!
+    ********************************************************************************
+    ********************************************************************************
+*/
+
+.my-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+// xLarge content, limit in 1440px
+.content--xl {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  @include mq-lg-down {
+    width: calc(100% - 50px);
+  }
+
+  @include mq-md-down {
+    width: calc(100% - 50px);
+  }
+
+  @include mq-sm-down {
+    width: calc(100% - 30px);
+  }
+}
+
+// Large content, limit in 1024px
+.content--lg {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+
+  @include mq-lg-down {
+    width: calc(100% - 50px);
+  }
+
+  @include mq-md-down {
+    width: calc(100% - 50px);
+  }
+
+  @include mq-sm-down {
+    width: calc(100% - 30px);
+  }
+}
+
+/* 
+  End
+  Created by Monochrome
+*/

@@ -1,0 +1,24 @@
+{
+  "name": "front-starter-kit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack --watch --progress --colors --minimize",
+    "dev": "webpack --progress --colors",
+    "build": "webpack --watch"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "sass-loader": "^6.0.7",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-stream": "^5.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "node-sass": "^4.13.0",
+    "style-loader": "^1.0.0"
+  }
+}
